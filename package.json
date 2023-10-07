@@ -1,0 +1,19 @@
+{
+  "name": "firebasesiteedit",
+  "version": "1.0.0",
+  "description": "Edit and deploy websites in interface no-code",
+  "main": "./electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "cheerio": "^1.0.0-rc.12",
+    "firebase-tools": "^12.6.1"
+  }
+}

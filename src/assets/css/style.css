@@ -1,0 +1,19 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-edit-button {
+    position: relative;
+    padding: 3px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #ececec;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+progress {
+    transition: width 2s ease-in-out;
+}

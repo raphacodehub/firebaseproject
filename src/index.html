@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Dashboard</title>
+</head>
+
+    <body onload="init()"><button type="button" id="host-init">Visualizar</button>
+    <input type="file" name="file" value="test" id="file" style="display: none;">
+    <label for="file" class="banner-edit-button">Alterar banner</label>
+
+    <input type="text" name="banne title" placeholder="Titulo" value="Meu site" id="title">
+
+    <button type="button" id="deploy">Enviar</button>
+    <progress value="0" max="100" id="deploy-prog"></progress>
+    <label for="deploy-prog" id="deploy-stats"></label>
+    
+    <script src="./assets/js/import-modules.js"></script>
+    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/select-new-file.js"></script>
+    <script src="./assets/js//title-edit.js"></script>
+    <script src="./assets/js/server-init.js"></script>
+    <script src="./assets/js/deploy.js"></script>
+
+</body></html>

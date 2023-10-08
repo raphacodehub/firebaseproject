@@ -1,12 +1,12 @@
 {
-  "name": "firebasesiteedit",
+  "name": "editor-de-site",
   "version": "1.0.0",
   "description": "Edit and deploy websites in interface no-code",
   "main": "./electron/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "Lucas",
+  "author": "@lucascodehub",
   "license": "MIT",
   "devDependencies": {
     "electron": "^26.2.2"
